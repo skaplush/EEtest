@@ -11,7 +11,7 @@ I've created below two tests:
 - Automation Tool - Selenium Webdriver 3.4.0
 - Test Framework - Junit 4.12
 - Build Tool - Maven
-- IDE - Eclipse
+- IDE - IntelliJ
 
 ### Tested on below browsers 
 
@@ -29,16 +29,17 @@ run the tests on FF, change the browser value to "firefox".
 
 ### Execution Steps
 
-- Clone the repository or download project as a zip file
-- Download all the required libraries
-- Run the tests using RunTest class
+- Clone the repository or download project as a zip file. Navigate to the folder EETest.
 
-OR
+Through command line, use maven commands ( mvn site with generate the surefire report EEtest/target/site/surefire-report.html)
 
-Through command line, use maven commands e.g.
+```
+mvn site
+
+```
+OR you could also just use
 
 ```
 mvn test
 
 ```
-

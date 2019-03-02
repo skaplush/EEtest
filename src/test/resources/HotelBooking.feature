@@ -8,7 +8,7 @@ Feature: Create and Delete a hotel booking
     Given the customer navigates to the hotel booking page
     When the customer creates the booking with below details:
       | FirstName | LastName | Price | Deposit |
-      | Matthew   | Skidmore |  1000 | false   |
+      | Gaël      | Martin |1251.75| false   |         
     Then new booking should be displayed on the booking page
 
   Scenario: Customer deletes the first booking on the booking page
